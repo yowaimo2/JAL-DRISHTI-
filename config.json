@@ -1,0 +1,44 @@
+{
+    "Configuration": {
+        "FunctionName": "jal-drishti-brain",
+        "FunctionArn": "arn:aws:lambda:ap-southeast-2:647782045527:function:jal-drishti-brain",
+        "Runtime": "python3.9",
+        "Role": "arn:aws:iam::647782045527:role/LambdaExecutionRole",
+        "Handler": "lambda_function.lambda_handler",
+        "CodeSize": 2159150,
+        "Description": "",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2026-10-09T04:51:36.000+0000",
+        "CodeSha256": "LPg2lXtlGjXIs+1THuKILPISZTbGb3f1A7o2GmTK29Q=",
+        "Version": "$LATEST",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "643b4406-8b53-47a1-b4a9-853f51f7086b",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:ap-southeast-2::runtime:b46f7bc0f3da8071d1b824471f2c69c8766b756b827eb0455d2118c622ae7bcf"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/jal-drishti-brain"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-ap-se-2-tasks.s3.ap-southeast-2.amazonaws.com/snapshots/647782045527/jal-drishti-brain-fcc5de3e-e179-4a14-868e-126d41d77e3e?versionId=9FxUTLIsDUOEb4IszVyjK4SHA9pFUUzH&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaDmFwLXNvdXRoZWFzdC0yIkcwRQIhAKGRkvsR46byDt%2FKb%2BanGumkyU0ZOxyJdJX3guFRDR0XAiAc6hGCWlKDHvd0H5zpSSA1NFfdYnqb07f7Os6Ll%2BFfLSqLAggrEAMaDDU4NzIyNzI3Mjk1OCIMIVRkOY%2BbMi%2FR%2Fu7LKugBvM9KS%2FQfncq%2FH1oamvLjen%2B%2FOEMcEnzDCbDh78u2Jk%2FHrkm5r0TDtdD6Um9Zfuf15%2FLe8AbVYvbPkc82BWgV6TK3fWbkvYCf%2F3dhCgeAZlETcZmWskol0c8ww3SrzFxO5Kn%2FxEw3u%2Fl1Ju5f%2FesRTNFKPAQL1wGuXnLvRHNuTAgjoFkixW1yZBZw3yRHRqDsp%2BSEjptiO2i8i7qhyysRdqz6%2FiPWqurqf4tTDLwyix6%2BesxK15W1tRHSNznF4%2BwtDuGrH%2FbjNHJUogHT3sX7eQqmbQGZ51lgnONmwPD0BdU2wgsHbpcdnDDdsJ%2FWBjqNAelc8%2FJ0sdXY3pTnv49HP80C8FyMtqzqV53tEJmdh79OsUA42DmYt%2BYJF1oqI2eWPBcXMU1rQPNOAaItVZpKR1OD%2BKyvMqMMg7V0LWbj5s0rsTHcH3hEiEYYqBHJn05WYWzovGV5bUZij5gi5BS7rP8lhMp8G5WkzK0C5CCnAtBrbVXS9Rf0HPHO9FKcfQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261009T045432Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIAYROLZC37MVDQO53C%2F20261009%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Signature=76725d16f436841365f054526202b7365f907899aae3976ee31c610ee7a269b5"
+    }
+}

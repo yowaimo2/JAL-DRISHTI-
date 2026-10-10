@@ -1,0 +1,14 @@
+# Lambda layer (via Powertools ARN — no pip install needed in Lambda)
+# Local development dependencies:
+aws-lambda-powertools[tracer]==3.3.0
+boto3>=1.34.0
+
+# Seeder script
+opensearch-py>=2.4.0
+
+# Streamlit UI
+streamlit>=1.35.0
+streamlit-folium>=0.20.0
+folium>=0.16.0
+plotly>=5.20.0
+requests>=2.31.0

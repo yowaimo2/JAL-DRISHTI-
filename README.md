@@ -23,4 +23,17 @@
 ---
 
 ## Architecture Overview
+[Mobile/Web Client]
+│
+▼
+[Amazon API Gateway] ──► [Amazon S3] (Photo Uploads)
+│                      │
+▼                      ▼
+[AWS Lambda] ────────► [Amazon SageMaker / ML Inference]
+│                 (Flood Passability Classification)
+▼
+[Amazon Aurora PostGIS] ◄── [Geospatial & Canopy Heat Data]
+│
+▼
+[Routing Engine / ECS] ──► [Amazon CloudFront] ──► [Live Heatmap & Rerouting]
 
